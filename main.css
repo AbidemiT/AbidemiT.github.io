@@ -18,67 +18,62 @@
     100% {background-image: url(images/wor.jpg);}
 } */
 
-.time h2{
-    font-size: 50px;
+.time h1{
+    padding-top: 20vh;
+    font-size:2.5em;
     font-family: 'Dancing Script', cursive;
-    color: #38ce59;
+    color: white;
 
+}
+.time h2{
+    color: #38ce59;
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+h2#heading{
+    margin-top: 10vh;
 }
 h2.foot{
-    
-    text-align: center;
+    margin-top: 15vh;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
-#override h1:hover{
+.time h1:hover{
     color:#38ce59;
-    transition:all 2s;
+    transition:all 1s;
 }
 
-#override{
-   
-    text-align: center;
-}
-#override h1 {
-    color:white;
-    font-family: 'Dancing Script', cursive;
-    font-size: 45px;
-}
-#override a{
-    color:white;
-    margin-right: 5px;
-    padding: 4px;
-}
+
 .navbar-brand{
     font-family: 'Fugaz One', cursive;
     font-weight: bold;
     font-size: 30px;
     margin-top: 0;
 }
-
-h1{
-    margin-top: 220px;
-    text-align: center;
+.under{
+    /* display: inline-block; */
+    position: relative;
+    color: #38ce59;
+}
+.under::after{
+    content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #38ce59;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.under:hover::after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
-@media screen and (max-width: 900px) {
-   h1{
-        margin-top: 120px;
-        font-size: 40px;
-    }
 
-}
- 
-@media screen and (min-width: 340px) {
-    h2{
-        margin-top: 80px;
-        color:white;
-        font-size: 16px;
-    }
-    h1{
-        margin-top: 100px;
-        font-size: 20px;
-    }
-}
+
+
 
 
