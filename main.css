@@ -20,7 +20,7 @@
 
 .time h1{
     padding-top: 20vh;
-    font-size:40px;
+    font-size:43px;
     font-family: 'Dancing Script', cursive;
     color: white;
 
@@ -29,12 +29,10 @@
     color: #38ce59;
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
-}
-h2#heading{
     margin-top: 10vh;
 }
 h2.foot{
-    margin-top: 15vh;
+    margin-top: 12vh;
     color: white;
     font-size: 1.2rem;
 }
