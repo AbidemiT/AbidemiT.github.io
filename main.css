@@ -1,3 +1,7 @@
+body{
+    background-color: #333;
+   
+}
 #ani{
     overflow-x: hidden;
     height: 100vh;
@@ -11,15 +15,30 @@
     animation-timing-function: ease-out; */
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
 /* @keyframes land{
     0% {background-image: url(images/wor.jpg);}
     25% {background-image: url(images/pexel1.jpg);}
     50% {background-image: url(images/pexel2.jpeg);}
     100% {background-image: url(images/wor.jpg);}
 } */
+h6,.h6{
+    font-family: 'Orbitron', sans-serif;
+    color: #38ce59;
+}
+#bc{
+    height: 100vh;
+    color:white;
+}
 
 .time h1{
-    padding-top: 20vh;
+    padding-top: 15vh;
     font-size:43px;
     font-family: 'Dancing Script', cursive;
     color: white;
@@ -31,16 +50,35 @@
     font-family: 'Dancing Script', cursive;
     margin-top: 10vh;
 }
-h2.foot{
-    margin-top: 12vh;
+.cta {
+    display: block;
+    width:250px;
+    background-color: #38ce59;
+    border: 3px solid #38ce59;
+    border-radius: 30px;
+    margin: 20px 0;
+    padding: 8px 12px 14px 12px;
+    color: #FFFBF8;
+    font-family: "Orbitron",sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .cta:hover {
+    color: #38ce59;
+    background-color: transparent;
+    border: 3px solid #38ce59;
+  }
+footer{
     color: white;
     font-size: 1.2rem;
+    font-family: 'Dancing Script', cursive;
 }
 .time h1:hover{
     color:#38ce59;
     transition:all 1s;
 }
-
 
 .navbar-brand{
     font-family: 'Fugaz One', cursive;
